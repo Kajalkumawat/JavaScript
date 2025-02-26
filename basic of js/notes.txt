@@ -1,0 +1,77 @@
+HTML :
+->provides the structure and content of the webpage
+
+CSS:
+->styles and design the appearance of the webpage 
+
+JS:
+->adds interactivity and dynamic behavior to the webpage 
+
+---------------------------------------------------------------------
+javacript :
+->javascript improves the user experience of the web page by converting it from a static page into an interactive one .
+
+or 
+
+->javascript is used to update and change both HTML and CSS it adds behavior to web pages.
+--------------------------------------------------------------------------------
+javascript have three types : 
+a)internal JS
+b)external JS
+c)inline JS
+--------------------------------------------------------------------------
+a)internal JS
+`   <button onclick="alert(hello)">click me</button>
+
+b)external JS
+    <script>console.log('hello world'); </script>
+
+c)inline JS
+    <script src="script.js"></script>
+-------------------------------------------------------------------------
+values and variable of javacript :
+->variable is used to stored the data into the container 
+->it does not used @ and & symbol
+->it is used $(dollar symbol ) 
+
+let :used to create global variable 
+var :used to create local varaible 
+const :it give immuatibility concpet 
+-------------------------------------------------------------------------
+data types :
+->two type :
+a)primitive data type 
+    string 
+    number 
+    boolean 
+    undefined 
+    null
+    bigint
+    symbol 
+
+b)object data types 
+    an object 
+    an array 
+    a date 
+-------------------------------------------------------------------
+convert string into number :
+then used parseInt()
+const myString="42"
+const num=parseInt(myString)
+document.write(num);
+-----------------------------------------------------------
+NaN :not a number 
+
+when substract to one string to another string :then it give NaN means not a number 
+-----------------------------------------------------------
+operators :
+a)assignment operator 
+b)arithmetic operator 
+c)comparision operator 
+d)logical operator 
+e)string operator 
+f)unary operator 
+g)ternary operator 
+h)type operator 
+-----------------------------------------------------------
+functions : 
