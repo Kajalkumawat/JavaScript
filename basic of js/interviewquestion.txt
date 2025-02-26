@@ -1,0 +1,13 @@
+what is the diffrence between null and undefined in javascript ?
+var a=kajal (this is undefine refrence error )
+
+var a=null (this is the null )
+--------------------------------------------------------
+what is the purpose of typeof operator in js?
+
+what is the result of 'typeofnull' in js ?
+
+what are the primitive data type in js ?
+
+explain the concept of truthy and falsy value in js ? 
+
