@@ -1,0 +1,111 @@
+Ecmascript :
+->java script was created 1996 
+
+in 1997 ECMA international it was submitted to ECMA international for standardlization which result in Ecmascript and it is the combination of multiple functions and every time it is updated 
+
+ES6 /Ecmascript 2015 :decided to switch annual released to Ecmascript
+
+ES6 :
+a)let and const 
+b)template strings 
+c)default arguments 
+d)arrow functions
+e)destructing 
+f)object properties 
+g)rest operators 
+h)spread operator 
+------------------------------------------------
+var :same name variable again used 
+like 
+var name="kajal"
+var name="hii"
+
+let :
+let name="kajal"
+let name="hii"
+then it give error because same name not possible 
+
+let name="kajal"
+ name="hii"
+value reassign is allow 
+
+const:
+const name="kajal"
+const name="hii"
+then it give error because same name not possible 
+
+const name="kajal"
+ name="hii"
+it also give error 
+
+----------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ecmapscript</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <script>
+      //age=18 want to print i am 18 years old 
+      let age=18
+      let h=`i am ${age} years old`//used backticks 
+      document.write(h)
+    </script>
+</body>
+</html>
+-----------------------------------------------------------------
+=> :arrow function 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ecmapscript</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <script>
+        //function remove then used fat arrow function (=> )
+     sum =(a,b)=>{
+        result=a+b;
+        document.write(result)
+      }
+      sum(2,4);
+    </script>
+</body>
+</html>
+------------------------------------------------------------
+when want to declare single variable then does not used parenthesis 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ecmapscript</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <script>
+    const sum=a=>`${a*a}`
+    document.write(sum(5))
+    </script>
+</body>
+</html>
+----------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ecmapscript</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <script>
+    const greet=()=>document.write("hello");
+    
+    </script>
+</body>
+</html>
+--------------------------------------------------------------------
+slice() :function
+slice() extracts a part of a string and returns the extracted part in a new string .
+1)javascript counts positions from zero 
+2)slice() extracts up to but not including indexEnd. 
+
+------------------------------------------------------------------
