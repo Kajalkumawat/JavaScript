@@ -1,0 +1,76 @@
+window :
+->window have divided into three part :
+a)document (DOM :document object model)
+b)BOM :browser object model 
+c)javascript :object ,array,function 
+----------------------------------------------------
+BOM :
+navigator --->screen--->location--->frames --->history-->XMLHttpRequest
+
+------------------------------------------------------------------------------
+window object :
+->the window object represents the global window in a browser both the browser object model and document object model are the part of the window object.
+
+---------------------------------------------------------------------------
+browser object model(BOM):
+the BOM represents the browser as an object and provides methods and properties for interacting with the browser itself (not directly related to the content of a web page )
+
+Examples of BOM features include window.navigator for browser information,window.location for URL manipulation ,and window.alert for display alerts.
+------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        window.alert("hello");
+        </script>
+</body>
+</html>
+-------------
+window.location :give the information of host name and server and protocol 
+
+-----------------------
+when want to change in the html then used DOM and want to used to change on the browser side then used BOM .
+
+DOM:
+->the DOM represents the structured document as a tree of objects,where each object corresponds to a part of the document(such as elements ,attribute,and text).
+
+the DOM is primarily concerned with the content  of the web page  allows javascript to interact with manipulate the HTML elements .
+
+--------------------------------------------------------
+so,while the DOM is focused on the content of the page,the BOM is focused on the browser enviorment the window object serves as the global object that encompasses both the BOM and DOM when working in a browser enviorment.
+
+-------------------------------------------------------------------------------
+the DOM is a tree like representation of the HTML document. it provides a way to interact with the html document using javascript . the DOM provides multiple properties and methods to dynamically change the content of html document using javascript.
+---------------------------------------------------------------------
+DOM properties:
+document 
+getElementById(id)
+getElementsByClassName(className)
+getElementByTagName(tagName)
+querySelector(selector)
+querySelectorAll(selector)
+innerHtml 
+textContent
+style 
+-------------------------------------------------------------------------
+DOM methods :
+->createElement(tagName)
+->appendChild(node)
+->removeChild(node)
+->addEventListner(event,function)
+->removeEventListner(event,function)
+->setAttribute(name,value)
+->getAttribute(name)
+->parentNode /parentElement
+->childNode/children
+->firstChild/firstElementChild
+->lastChild/lastElementChild
+->nextSibling/nextElement
+->previousSibling
+->closest(selector)
+->forEach(Array,from)
+
+-----------------------------------------------------------------------
